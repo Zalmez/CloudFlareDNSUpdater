@@ -10,5 +10,5 @@ With windows you can use the task scheduler to run this automatically - note you
 - set how often you'd like the script to trigger
 - Click next with the "Start a program" option picked
 - find where you have your powershell instance installed, by default on windows it should be under "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
-- By the "Add arguments" box write the following: -File "YourPath/CloudFlareDNSUpdater/cloudflare dns updater.ps1"
+- By the "Add arguments" box write the following: -windowstyle hidden -File "YourPath/CloudFlareDNSUpdater/cloudflare dns updater.ps1"
 ```
